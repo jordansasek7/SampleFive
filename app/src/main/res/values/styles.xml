@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calculator_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:weightSum">4</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="button_appearance_gray">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#d3d3d3</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button_appearance_dark_gray">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#A9A9A9</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
